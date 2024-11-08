@@ -64,8 +64,8 @@ int main()
     for (person_t* ptr = personsPtr; (ptr - personsPtr) < num_of_persons; ptr++)
     {
         std::cout << "Name\t" << ptr->name << "\nAge\t" << ptr->age << "\nid\t" << ptr->id << std::endl;
+        std::cout << std::endl;
     }
-    std::cout << std::endl;
 
     return 0;
 }
